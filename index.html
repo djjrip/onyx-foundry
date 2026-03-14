@@ -3,143 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jayson Quindao | [SYS.ON] ONYX.FOUNDRY</title>
+    <title>Onyx Foundry | The 7-Day MVP Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="scanlines"></div>
-    <div class="vignette"></div>
+    <div class="glow-bg"></div>
+    <div class="glow-accent"></div>
 
-    <nav>
-        <div class="logo">&gt; ONYX_FOUNDRY <span class="blink">_</span></div>
-        <div class="nav-links">
-            <a href="#services">[ ARSENAL ]</a>
-            <a href="#work">[ PROOF_OF_WORK ]</a>
-            <a href="#contact" class="btn-primary">INITIATE_COMMS</a>
+    <header>
+        <div class="logo">
+            <div class="logo-mark"></div>
+            Onyx Foundry
         </div>
-    </nav>
+        <nav>
+            <a href="#projects">Work</a>
+            <a href="#services">Architecture</a>
+            <a href="#contact" class="btn-primary-small">Initiate Built</a>
+        </nav>
+    </header>
 
     <main>
         <section class="hero">
-            <div class="terminal-header">
-                <span class="system-status">SYS.STATUS: ONLINE</span>
-                <span class="user-id">ID: J.QUINDAO</span>
+            <div class="hero-badge">Accepting 2 Clients for March 2026</div>
+            <h1>We build SaaS MVPs in <span class="gradient-text">7 Days</span>.</h1>
+            <p class="hero-subtext">Stop looking for a technical co-founder. Stop paying agencies $50,000 for vaporware. We engineer production-ready web apps, native desktop software, and custom AI tooling in exactly one week.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">Book Your Build &rarr;</a>
+                <a href="#projects" class="btn-secondary">View The Arsenal</a>
             </div>
-            <h1><span class="bracket">[</span> Stop waiting for a <br><span class="accent-text">Technical Co-Founder</span> <span class="bracket">]</span></h1>
-            <p class="subtitle">&gt; Leveraging AI orchestration and high-velocity engineering to build enterprise-grade SaaS MVPs, native desktop apps, and custom web scrapers. <br><span class="highlight-text">// SLA: 7_DAYS</span></p>
-            
-            <div class="cta-buttons">
-                <a href="#contact" class="btn-large">DEPLOY_NOW</a>
-                <a href="#work" class="btn-large outline">ACCESS_DATALOGS</a>
-            </div>
-
-            <div class="stats">
-                <div class="stat">
-                    <h2>003</h2>
-                    <p>PRODUCTS_SHIPPED</p>
-                </div>
-                <div class="stat">
-                    <h2>007<span class="small-text"> CYCLES</span></h2>
-                    <p>AVG_DELIVERY</p>
-                </div>
-                <div class="stat">
-                    <h2>100<span class="small-text">%</span></h2>
-                    <p>CODE_OWNERSHIP</p>
+            <div class="tech-stack-banner">
+                <p>POWERED BY</p>
+                <div class="tech-logos">
+                    <span>Next.js</span> • <span>React</span> • <span>PostgreSQL</span> • <span>Python</span> • <span>AWS</span> • <span>Playwright</span>
                 </div>
             </div>
         </section>
 
-        <section id="services" class="services">
-            <div class="section-header">
-                <h2>// THE_ARSENAL</h2>
-                <p class="terminal-text">&gt; Engineering leverage. Bypassing limits.</p>
+        <section id="services" class="feature-grid">
+            <div class="grid-header">
+                <h2>The Architecture</h2>
+                <p>Onyx Foundry operates on strict constraints to guarantee high-velocity shipping.</p>
             </div>
             
-            <div class="service-grid">
+            <div class="cards">
                 <div class="card">
-                    <div class="card-top-bar">
-                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-                        <span class="card-id">MOD.01</span>
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                     </div>
-                    <h3>SaaS MVP Architecture</h3>
-                    <p>Full-stack web applications deployed to production. React, Node.js, PostgreSQL, and AWS infrastructure.</p>
-                    <div class="price">CREDITS: 5000+</div>
+                    <h3>SaaS MVPs</h3>
+                    <p>Fully functional SaaS products with Stripe billing, user authentication, and enterprise databases. Deployed to Vercel/AWS.</p>
                 </div>
+                
                 <div class="card">
-                    <div class="card-top-bar">
-                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-                        <span class="card-id">MOD.02</span>
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
                     </div>
-                    <h3>Autonomous Agents</h3>
-                    <p>Headless browser scrapers, Playwright automations, and custom AI tools that replace entire marketing teams.</p>
-                    <div class="price">CREDITS: 2000+</div>
+                    <h3>Desktop Applications</h3>
+                    <p>High-performance native Windows & macOS apps built in Electron or Python. Deep OS integration and local data management.</p>
                 </div>
+
                 <div class="card">
-                    <div class="card-top-bar">
-                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-                        <span class="card-id">MOD.03</span>
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                     </div>
-                    <h3>Native Desktop Apps</h3>
-                    <p>Windows desktop applications (Electron, Python) bypassing browser limits for local data dominance.</p>
-                    <div class="price">CREDITS: 3000+</div>
+                    <h3>Automated Scraping</h3>
+                    <p>We build headless browser automation and bypass API restrictions to programmatically execute your growth and lead generation.</p>
                 </div>
             </div>
         </section>
 
-        <section id="work" class="proof">
-            <div class="section-header">
-                <h2>// PROOF_OF_WORK</h2>
-                <p class="terminal-text">&gt; Accessing restricted archives...</p>
-            </div>
-
-            <div class="work-showcase">
-                <div class="work-card">
-                    <div class="work-content">
-                        <h3>GG LOOP</h3>
-                        <p>A permissionless gaming rewards engine utilizing local verifications, bypassing third-party API walls. Built on AWS App Runner with full CI/CD pipelines.</p>
-                        <a href="https://ggloop.io" target="_blank" class="cyber-link">ESTABLISH_UPLINK ↗</a>
+        <section id="projects" class="projects">
+            <h2>Proof of Execution</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>GG LOOP Enterprise</h3>
+                        <p>A massive, permissionless gaming rewards platform architecture tracking points without official API keys.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>AWS RDS</span>
+                        </div>
+                    </div>
+                    <div class="project-mockup">
+                        <div class="mockup-img" style="background: linear-gradient(135deg, rgba(30,30,30,1) 0%, rgba(15,15,15,1) 100%);">
+                            <span class="mockup-text">GG LOOP OS</span>
+                        </div>
                     </div>
                 </div>
-                <div class="work-card">
-                    <div class="work-content">
+
+                <div class="project-item reverse">
+                    <div class="project-content">
                         <h3>Spotify Archiver Pro</h3>
-                        <p>A fully monetized native Windows application that automatically archives streaming music directly to high-quality local MP3 files.</p>
-                        <a href="https://quindao48.gumroad.com/l/smwmsf" target="_blank" class="cyber-link">ACCESS_MERCHANT_NODE ↗</a>
+                        <p>A native Windows desktop application that autonomously converts liked playlists into local, permanent MP3 backups utilizing stealth automation.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>FFmpeg</span>
+                            <span>Playwright</span>
+                        </div>
+                    </div>
+                    <div class="project-mockup">
+                        <div class="mockup-img" style="background: linear-gradient(135deg, rgba(20,40,30,1) 0%, rgba(10,15,12,1) 100%);">
+                            <span class="mockup-text">Archiver Executable</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <div class="target-box">
-                <h2>// INITIATE_COMMS</h2>
-                <p>Bandwidth restricted to TWO concurrent ops per month. Transmit request below.</p>
+        <section id="contact" class="intake">
+            <div class="intake-card">
+                <h2>Let's build your product.</h2>
+                <p>We work tightly with serious founders. Submit your project requirements to initiate architecture scoping.</p>
                 
                 <form action="https://formsubmit.co/jayson@ggloop.io" method="POST" class="contact-form">
                     <input type="hidden" name="_subject" value="New Lead: Onyx Foundry MVP Engine!">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://djjrip.github.io/onyx-foundry/">
                     <div class="input-group">
-                        <input type="text" name="name" placeholder="CALLSIGN (Name)" required>
-                        <input type="email" name="email" placeholder="COMMLINK (Email)" required>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
                     </div>
-                    <textarea name="project" placeholder="TRANSMIT MISSION OBJECTIVE..." rows="5" required></textarea>
                     <select name="budget" required>
-                        <option value="" disabled selected>ALLOCATE HARDWARE BUDGET</option>
-                        <option value="$2k-$5k">2000 - 5000 CREDITS</option>
-                        <option value="$5k-$10k">5000 - 10000 CREDITS</option>
-                        <option value="$10k+">10000+ CREDITS</option>
+                        <option value="" disabled selected>Select Budget Range</option>
+                        <option value="$2,500 - $5,000">$2,500 - $5,000 (Scrapers / Automation)</option>
+                        <option value="$5,000 - $10,000">$5,000 - $10,000 (Standard MVP)</option>
+                        <option value="$10,000+">$10,000+ (Enterprise Architecture)</option>
                     </select>
-                    <button type="submit" class="btn-submit">[[ TRANSMIT ]]</button>
+                    <textarea name="project" placeholder="Describe your product idea and main goals..." rows="5" required></textarea>
+                    
+                    <button type="submit" class="btn-primary w-full">Submit Request &rarr;</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&gt; SYS.EOF // &copy; 2026 ONYX_FOUNDRY_UI. ALL RIGHTS RESERVED.</p>
-        <p class="built-with">DEVELOPER: J.QUINDAO [VERIFIED]</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-mark"></div> Onyx Foundry
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Jayson Quindao. All rights reserved. Architected for speed.
+            </div>
+        </div>
     </footer>
 </body>
 </html>
